@@ -1,0 +1,98 @@
+# Pushbuttons
+NET "btn<3>"  LOC = "H13"  ;
+NET "btn<2>"  LOC = "E18"  ;
+NET "btn<1>"  LOC = "D18"  ;
+NET "btn<0>"  LOC = "B18"  ;
+
+# LEDs
+NET "ld<0>"  LOC = "J14"  ;
+NET "ld<1>"  LOC = "J15"  ;
+NET "ld<2>"  LOC = "K15"  ;
+NET "ld<3>"  LOC = "K14"  ;
+NET "ld<4>"  LOC = "E16"  ;
+NET "ld<5>"  LOC = "P16"  ;
+NET "ld<6>"  LOC = "E4"  ;
+NET "ld<7>"  LOC = "P4"  ;
+
+# Slide switches
+#NET "sw<0>"  LOC = "G18"  ;
+#NET "sw<1>"  LOC = "H18"  ;
+#NET "sw<2>"  LOC = "K18"  ;
+#NET "sw<3>"  LOC = "K17"  ;
+#NET "sw<4>"  LOC = "L14"  ;
+#NET "sw<5>"  LOC = "L13"  ;
+#NET "sw<6>"  LOC = "N17"  ;
+#NET "sw<7>"  LOC = "R17"  ;
+
+# 7-segment displays
+NET "an<0>"  LOC = "F17"  ;
+NET "an<1>"  LOC = "H17"  ;
+NET "an<2>"  LOC = "C18"  ;
+NET "an<3>"  LOC = "F15"  ;
+NET "a_to_g<0>"  LOC = "L18"  ;
+NET "a_to_g<1>"  LOC = "F18"  ;
+NET "a_to_g<2>"  LOC = "D17"  ;
+NET "a_to_g<3>"  LOC = "D16"  ;
+NET "a_to_g<4>"  LOC = "G14"  ;
+NET "a_to_g<5>"  LOC = "J17"  ;
+NET "a_to_g<6>"  LOC = "H14"  ;
+NET "dp"  LOC = "C17"  ;
+
+## VGA Connector 
+#NET "red<0>"   LOC = "R9";      # Bank = 2, Pin name = IO/D5, Type = DUAL,                            Sch name = RED0
+#NET "red<1>"   LOC = "T8";      # Bank = 2, Pin name = IO_L10N_2, Type = I/O,                         Sch name = RED1
+#NET "red<2>"   LOC = "R8";      # Bank = 2, Pin name = IO_L10P_2, Type = I/O,                         Sch name = RED2
+#NET "green<0>" LOC = "N8";      # Bank = 2, Pin name = IO_L09N_2, Type = I/O,                         Sch name = GRN0
+#NET "green<1>" LOC = "P8";      # Bank = 2, Pin name = IO_L09P_2, Type = I/O,                         Sch name = GRN1
+#NET "green<2>" LOC = "P6";      # Bank = 2, Pin name = IO_L05N_2, Type = I/O,                         Sch name = GRN2
+#NET "blue<0>"  LOC = "U5";      # Bank = 2, Pin name = IO/VREF_2, Type = VREF,                        Sch name = BLU1
+#NET "blue<1>"  LOC = "U4";      # Bank = 2, Pin name = IO_L03P_2/DOUT/BUSY, Type = DUAL,              Sch name = BLU2
+
+#NET "hsync"       LOC = "T4";      # Bank = 2, Pin name = IO_L03N_2/MOSI/CSI_B, Type = DUAL,             Sch name = HSYNC
+#NET "vsync"       LOC = "U3";      # Bank = 2, Pin name = IO_L01P_2/CSO_B, Type = DUAL,                  Sch name = VSYNC
+
+NET "LEDA<0>"      LOC = "B4";      # Bank = 0, Pin name = IO_L24N_0, Type = I/O,                         Sch name = R-IO1
+NET "LEDA<1>"      LOC = "A4";      # Bank = 0, Pin name = IO_L24P_0, Type = I/O,                         Sch name = R-IO2
+NET "LEDA<2>"      LOC = "C3";      # Bank = 0, Pin name = IO_L25P_0, Type = I/O,                         Sch name = R-IO3
+NET "LEDA<3>"      LOC = "C4";      # Bank = 0, Pin name = IO, Type = I/O,                                Sch name = R-IO4
+NET "LEDA<4>"      LOC = "B6";      # Bank = 0, Pin name = IO_L20P_0, Type = I/O,                         Sch name = R-IO5
+NET "LEDA<5>"      LOC = "D5";      # Bank = 0, Pin name = IO_L23N_0/VREF_0, Type = VREF,                 Sch name = R-IO6
+NET "LEDA<6>"      LOC = "C5";      # Bank = 0, Pin name = IO_L23P_0, Type = I/O,                         Sch name = R-IO7
+NET "LEDA<7>"      LOC = "F7";      # Bank = 0, Pin name = IO_L19P_0, Type = I/O,                         Sch name = R-IO8
+#NET "PIO<8>"      LOC = "E7";      # Bank = 0, Pin name = IO_L19N_0/VREF_0, Type = VREF,                 Sch name = R-IO9
+#NET "PIO<9>"      LOC = "A6";      # Bank = 0, Pin name = IO_L20N_0, Type = I/O,                         Sch name = R-IO10
+#NET "PIO<10>"     LOC = "C7";      # Bank = 0, Pin name = IO_L18P_0, Type = I/O,                         Sch name = R-IO11
+#NET "PIO<11>"     LOC = "F8";      # Bank = 0, Pin name = IO_L17N_0, Type = I/O,                         Sch name = R-IO12
+#NET "PIO<12>"     LOC = "D7";      # Bank = 0, Pin name = IO_L18N_0/VREF_0, Type = VREF,                 Sch name = R-IO13
+#NET "PIO<13>"     LOC = "E8";      # Bank = 0, Pin name = IO_L17P_0, Type = I/O,                         Sch name = R-IO14
+#NET "PIO<14>"     LOC = "E9";      # Bank = 0, Pin name = IO_L15P_0, Type = I/O,                         Sch name = R-IO15
+#NET "PIO<15>"     LOC = "C9";      # Bank = 0, Pin name = IO_L14P_0/GCLK10, Type = GCLK,                 Sch name = R-IO16
+#NET "PIO<16>"     LOC = "A8";      # Bank = 0, Pin name = IO, Type = I/O,                                Sch name = R-IO17
+#NET "PIO<17>"     LOC = "G9";      # Bank = 0, Pin name = IO, Type = I/O,                                Sch name = R-IO18
+#NET "PIO<18>"     LOC = "F9";      # Bank = 0, Pin name = IO_L15N_0, Type = I/O,                         Sch name = R-IO19
+#NET "PIO<19>"     LOC = "D10";     # Bank = 0, Pin name = IO_L11P_0/GCLK4, Type = GCLK,                  Sch name = R-IO20
+#NET "PIO<20>"     LOC = "A10";     # Bank = 0, Pin name = IO_L12N_0/GCLK7, Type = GCLK,                  Sch name = R-IO21
+#NET "PIO<21>"     LOC = "B10";     # Bank = 0, Pin name = IO_L12P_0/GCLK6, Type = GCLK,                  Sch name = R-IO22
+#NET "PIO<22>"     LOC = "A11";     # Bank = 0, Pin name = IO, Type = I/O,                                Sch name = R-IO23
+#NET "PIO<23>"     LOC = "D11";     # Bank = 0, Pin name = IO_L09N_0, Type = I/O,                         Sch name = R-IO24
+#NET "PIO<24>"     LOC = "E10";     # Bank = 0, Pin name = IO_L11N_0/GCLK5, Type = GCLK,                  Sch name = R-IO25
+#NET "PIO<25>"     LOC = "B11";     # Bank = 0, Pin name = IO/VREF_0, Type = VREF,                        Sch name = R-IO26
+#NET "PIO<26>"     LOC = "C11";     # Bank = 0, Pin name = IO_L09P_0, Type = I/O,                         Sch name = R-IO27
+#NET "PIO<27>"     LOC = "E11";     # Bank = 0, Pin name = IO_L08P_0, Type = I/O,                         Sch name = R-IO28
+#NET "PIO<28>"     LOC = "F11";     # Bank = 0, Pin name = IO_L08N_0, Type = I/O,                         Sch name = R-IO29
+#NET "PIO<29>"     LOC = "E12";     # Bank = 0, Pin name = IO_L06N_0, Type = I/O,                         Sch name = R-IO30
+#NET "PIO<30>"     LOC = "F12";     # Bank = 0, Pin name = IO_L06P_0, Type = I/O,                         Sch name = R-IO31
+#NET "PIO<31>"     LOC = "A13";     # Bank = 0, Pin name = IO_L05P_0, Type = I/O,                         Sch name = R-IO32
+NET "LEDB<0>"     LOC = "B13";     # Bank = 0, Pin name = IO_L05N_0/VREF_0, Type = VREF,                 Sch name = R-IO33
+NET "LEDB<1>"     LOC = "E13";     # Bank = 0, Pin name = IO, Type = I/O,                                Sch name = R-IO34
+NET "LEDB<2>"     LOC = "A14";     # Bank = 0, Pin name = IO_L04N_0, Type = I/O,                         Sch name = R-IO35
+NET "LEDB<3>"     LOC = "C14";     # Bank = 0, Pin name = IO_L03N_0/VREF_0, Type = VREF,                 Sch name = R-IO36
+NET "LEDB<4>"     LOC = "D14";     # Bank = 0, Pin name = IO_L03P_0, Type = I/O,                         Sch name = R-IO37
+NET "LEDB<5>"     LOC = "B14";     # Bank = 0, Pin name = IO_L04P_0, Type = I/O,                         Sch name = R-IO38
+NET "LEDB<6>"     LOC = "A16";     # Bank = 0, Pin name = IO_L01N_0, Type = I/O,                         Sch name = R-IO39
+NET "LEDB<7>"     LOC = "B16";     # Bank = 0, Pin name = IO_L01P_0, Type = I/O,                         Sch name = R-IO40
+
+# 50 MHz clock
+NET "mclk"  LOC = "B8"  ;
+# extra oscillator
+#NET "mclk"  LOC = "U9"  ;
